@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "A Node-JS library to calculate the canopy cover of a crop.",
   "keywords": [
