@@ -15,10 +15,12 @@ A Node-JS library to calculate the canopy cover of a crop.
 import canopyCover from 'canopy-cover';
 // For CommonJs modules:
 // const canopyCover = require('canopy-cover')
+
  const param1 = 0.95;
  const param2 = 0.95;
  const param3 = 20;
  const imagePath = 'path-to-your-image';
+
 canopyCover
   .canopeo({ imagePath, param1, param2, param3 })
   .then(result => console.log(result))
