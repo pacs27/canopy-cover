@@ -23,6 +23,7 @@ import canopyCover from 'canopy-cover';
 
 canopyCover
   .canopeo({ imagePath, param1, param2, param3 })
+  .getCanopyCover()
   .then(result => console.log(result))
   .catch(err => console.log(err));
 ```
@@ -66,6 +67,7 @@ import canopyCover from 'canopy-cover';
 
 canopyCover
   .canopeo({ imagePath, param1, param2, param3 })
+  .getCanopyCover()
   .then(result => console.log(result))
   .catch(err => console.log(err));
 ```
