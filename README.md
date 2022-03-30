@@ -40,7 +40,7 @@ For now the only model used is Canopeo, you can see more about this model in thi
 - Patrignani, A. and Ochsner, T.E., 2015. Canopeo: A powerful new tool for measuring fractional green canopy cover . Agronomy Journal, 107(6), pp.2312-2320. [Link](https://acsess.onlinelibrary.wiley.com/doi/full/10.2134/agronj15.0150) (Open access)
 ## Docs
 
- The library has 1 methods (canopeo):
+ The library has 1 method (canopeo):
 
 ### CANOPEO
 Canopeo clasifica la cubierta de canpopy utilizando los siguientes criterios:
