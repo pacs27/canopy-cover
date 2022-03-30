@@ -1,6 +1,13 @@
 {
   "version": "0.1.0",
   "license": "MIT",
+  "description": "A Node-JS library to calculate the canopy cover of a crop.",
+  "keywords": [
+    "nodejs",
+    "canopy cover",
+    "agriculture",
+    "javascript"
+  ],
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -31,7 +38,7 @@
     "trailingComma": "es5"
   },
   "name": "canopy-cover",
-  "author": "pacs27",
+  "author": "Francisco Puig <pacs27>",
   "module": "dist/canopy-cover.esm.js",
   "size-limit": [
     {
