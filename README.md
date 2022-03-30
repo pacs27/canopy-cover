@@ -1,13 +1,13 @@
 # CANOPY-COVER LIBRARY FOR NODEJS PROJECTS
 
-A Node-JS library to calculate the canopy cover of a crop.
+A Node-JS library to calculate the green canopy cover of a crop.
 
 ![npm](https://img.shields.io/npm/v/canopy-cover)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/canopy-cover)
 ![node-current](https://img.shields.io/node/v/canopy-cover)
 ![NPM](https://img.shields.io/npm/l/canopy-cover)
 ![checks](https://badgen.net/github/checks/pacs27/canopy-cover)
-![](https://badgen.net/github/release/pacs27/canopy-cover)
+![release](https://badgen.net/github/release/pacs27/canopy-cover)
 ![last-commit](https://badgen.net/github/last-commit/pacs27/canopy-cover)
 
 
