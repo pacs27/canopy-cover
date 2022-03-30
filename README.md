@@ -1,4 +1,4 @@
-# LIBCAMERA FOR RASPBERRY-PI
+# CANOPY-COVER LIBRARY FOR NODEJS PROJECTS
 
 A Node-JS library to calculate the canopy cover of a crop.
 
