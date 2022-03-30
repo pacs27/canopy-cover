@@ -32,5 +32,40 @@ canopyCover
 ```console
 $ npm install canopy-cover
 ```
+## About Canopy Cover
 
-## Quick Start
+The library has been designed with the aim of analyzing crop images and obtaining the vegetation cover. It uses the [sharp](https://github.com/lovell/sharp) module to quickly analyze the images. 
+
+For now the only model used is Canopeo, you can see more about this model in this web site: [canopeo](https://canopeoapp.com) and in the following article:  
+- Patrignani, A. and Ochsner, T.E., 2015. Canopeo: A powerful new tool for measuring fractional green canopy cover . Agronomy Journal, 107(6), pp.2312-2320. [Link](https://acsess.onlinelibrary.wiley.com/doi/full/10.2134/agronj15.0150) (Open access)
+## Docs
+
+ The library has 1 methods (canopeo):
+
+### CANOPEO
+Canopeo clasifica la cubierta de canpopy utilizando los siguientes criterios:
+
+**Red/Green < Param1 and Blue/Green < Param2 and 2Green-Red-Blue > Param3**
+
+This conditional is applied to each pixel, if it is fulfilled, that pixel is considered to be vegetation.
+
+Parameter 1 and parameter 2 have values close to 1 and classify pixels that are mainly in the green band.
+
+Parameter 3 establishes the minimum green excess index, which usually has a value around 20 to select green vegetation.
+
+Example of use:
+```js
+import canopyCover from 'canopy-cover';
+// For CommonJs modules:
+// const canopyCover = require('canopy-cover')
+
+ const param1 = 0.95;
+ const param2 = 0.95;
+ const param3 = 20;
+ const imagePath = 'path-to-your-image';
+
+canopyCover
+  .canopeo({ imagePath, param1, param2, param3 })
+  .then(result => console.log(result))
+  .catch(err => console.log(err));
+```
