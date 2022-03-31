@@ -44,7 +44,7 @@ For now the only model used is Canopeo, you can see more about this model in thi
  The library has 1 method (canopeo):
 
 ### CANOPEO
-Canopeo clasifica la cubierta de canpopy utilizando los siguientes criterios:
+Canopeo classifies green canopy cover using the following criteria
 
 **Red/Green < Param1 and Blue/Green < Param2 and 2Green-Red-Blue > Param3**
 
